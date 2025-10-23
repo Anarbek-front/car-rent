@@ -1,0 +1,35 @@
+.showcase {
+    padding: 100px 60px;
+    background: #0d0d0d;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    justify-items: center;
+}
+
+.moreBtn {
+    margin-top: 60px;
+    background: transparent;
+    border: 2px solid #d4af37;
+    color: #d4af37;
+    padding: 12px 36px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.moreBtn:hover{
+    background: #d4af37;
+    color: #fff
+}

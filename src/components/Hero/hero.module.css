@@ -1,0 +1,36 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('../../assets/img/phantom_rr.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 32px;
+}
+
+.btn {
+    background: #d4af37;
+    border: none;
+    padding: 14px 36px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #b68e25;
+}

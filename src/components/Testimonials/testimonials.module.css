@@ -1,0 +1,50 @@
+.testimonials {
+    background: #0c0c0c;
+    padding: 80px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    font-size: 2.2rem;
+    margin-bottom: 60px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card {
+    background: #161616;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 320px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: #1e1e1e;
+}
+
+.text {
+    font-style: italic;
+    margin-bottom: 25px;
+    opacity: 0.9;
+}
+
+.name {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.car {
+    font-size: 0.9rem;
+    color: #e6b800;
+}
